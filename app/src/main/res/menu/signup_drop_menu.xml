@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Doctor"
+        android:title="As a Doctor" />
+
+    <item
+        android:id="@+id/Butcher"
+        android:title="As a Butcher" />
+
+    <item
+        android:id="@+id/Customer"
+        android:title="As a Customer" />
+
+</menu>

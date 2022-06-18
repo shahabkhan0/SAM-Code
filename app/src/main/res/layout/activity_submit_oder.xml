@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".activities.SubmitOder">
+
+    <ImageView
+        android:id="@+id/oder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/order" />
+
+    <TextView
+        android:id="@+id/oder_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/oder"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="Oder Submit!"
+        android:textAllCaps="false"
+        android:textColor="@color/planecolor"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/below_oder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/oder_txt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="12dp"
+        android:gravity="center"
+        android:text="Thank you for BUying. You will riceive oder shortly."
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="19sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/continue_Ordoring"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_above="@+id/go_To_Home"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="12sp"
+        android:backgroundTint="@color/planecolor"
+        android:padding="8dp"
+        android:text="Continue Ordoring"
+        app:cornerRadius="8dp"
+        app:elevation="8dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/go_To_Home"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="12sp"
+        android:backgroundTint="@color/background"
+        android:padding="8dp"
+        android:text="Continue Ordoring"
+        android:textColor="@color/planecolor"
+        app:cornerRadius="8dp"
+        app:elevation="8dp" />
+
+</RelativeLayout>

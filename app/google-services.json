@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "405282804812",
+    "project_id": "samfyp-a66a3",
+    "storage_bucket": "samfyp-a66a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405282804812:android:dd043a44ebe4fb06db50e9",
+        "android_client_info": {
+          "package_name": "com.vc.technologies.sam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405282804812-hs2rcnf04qroip3op94eht9hj47d2gi7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1MGj5aIk3z6SfhP3Od1dWRGdYbPtU89Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405282804812-hs2rcnf04qroip3op94eht9hj47d2gi7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
